@@ -1,0 +1,15 @@
+# notebook = 100
+# while notebook > 0:
+#     notebook = notebook - 10
+#     print (notebook)
+#     if notebook == 100:
+#         break
+# print("Please you have spent all your money")
+factorial = 0
+while factorial < 1 :
+    num = int(input("Please enter a number \n "))
+    if num > 1 :
+        num = num * num
+        
+        print("the factorial is " + str(num ))
+        break # Any code under the break won't work
